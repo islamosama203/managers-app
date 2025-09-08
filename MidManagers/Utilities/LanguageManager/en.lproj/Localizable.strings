@@ -1,0 +1,64 @@
+/* 
+  Localizable.strings
+  MidManagers
+
+  Created by Khaled Rashed on 27/03/2023.
+  
+*/
+
+// Login
+"phoneNumber" = "phone number";
+"password" = "Password";
+"btnLogin" = "Login";
+"btnFaceId" = "Login using Face ID";
+
+// Scan QR code
+"pleaseScanQR" = "Please scan the QR code on the client's screen";
+"btnScanNow" = "Scan now";
+
+// Alert
+"alrtBtnOK" = "OK";
+"invalidUrl" = "Invalid URL";
+"timeOutRequest" = "Request time out!";
+
+// Notifications
+"notifications"= "Notifications";
+
+// Documents
+"nationalId" = "National ID";
+"nationalIdBack" = "National ID back side";
+"carLicense" = "Car License";
+"carLicenseBack" = "Car License back side";
+"clubId" = "Club ID";
+"clubIdBack" = "Club ID back side";
+"btnApproveDocuments" = "Approve Documents";
+"accepted" = "Accepted";
+"rejected" = "Rejected";
+"reupload" = "Re-upload";
+"btnAccept" = "Accept";
+"btnReject" = "Reject";
+"btnReupload" = "Re-upload";
+"btnView" = "View";
+"sorry" = "Sorry";
+"userRejected" = "This User is rejected";
+"home" = "Home";
+"btnUploadContract" = "Upload Contract";
+"userInformation" = "User Information";
+
+// Upload Contract
+"clientContract" = "Client Contract";
+"stepOne" = "Step 1";
+"stepTwo" = "Step 2";
+"stepThree" = "Step 3";
+"btnTakePhoto" = "Take Photo";
+"takeFront" = "Take the front of the contract";
+"takeBack" = "Take the back of the contract";
+"takeSelfi" = "Take the selfi of the client";
+"uploadContractNow" = "Upload contract now";
+
+// End of journy
+"ActivationCompletedSuccessfully" = "Activation process was completed successfully.";
+
+// Lose internet connection
+"checkInternetConnection" = "Please check your internet connection\n and try again";
+"btnRetry" = "Retry";

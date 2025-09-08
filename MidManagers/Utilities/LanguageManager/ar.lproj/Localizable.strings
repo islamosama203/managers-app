@@ -1,0 +1,64 @@
+/* 
+  Localizable.strings
+  MidManagers
+
+  Created by Khaled Rashed on 27/03/2023.
+  
+*/
+
+// Login
+"phoneNumber" = "رقم المستخدم";
+"password" = "الرقم السرى";
+"btnLogin" = "تسجيل الدخول";
+"btnFaceId" = "الدخول باستخدام بصمة الوجه";
+
+// Scan QR code
+"pleaseScanQR" = "يرجى مسح رمز الاستجابة السريعة (QR Code)\n الموجود على شاشة العميل";
+"btnScanNow" = "امسح الآن";
+
+// Alert
+"alrtBtnOK" = "حسناً";
+"invalidUrl" = "عنوان URL غير صحيح";
+"timeOutRequest" = "إنتهت مدة الإتصال!";
+
+// Notifications
+"notifications"= "الإشعارات";
+
+// Documents
+"nationalId" = "البطاقة الشخصية";
+"nationalIdBack" = "الوجه الخلفى للبطاقة الشخصية";
+"carLicense" = "رخصة السيارة";
+"carLicenseBack" = "الوجه الخلفى للرخصة";
+"clubId" = "بطاقة النادى";
+"clubIdBack" = "الوجه الخلفى لبطاقة النادى";
+"btnApproveDocuments" = "الموافقة على المستندات";
+"accepted" = "مقبولة";
+"rejected" = "مرفوضة";
+"reupload" = "إعادة رفع";
+"btnAccept" = "موافقة";
+"btnReject" = "رفض";
+"btnReupload" = "إعادة تحميل";
+"btnView" = "عرض الصورة";
+"sorry" = "للأسف";
+"userRejected" = "هذا العميل تم رفضه";
+"home" = "الرئيسية";
+"btnUploadContract" = "إرسال العقود";
+"userInformation" = "معلومات العميل";
+
+// Upload Contract
+"clientContract" = "العقد الخاص بالعميل";
+"stepOne" = "الخطوة الأولى";
+"stepTwo" = "الخطوة الثانية";
+"stepThree" = "الخطوة الثالثة";
+"btnTakePhoto" = "إلتقط الصورة";
+"takeFront" = "قم بتصوير مقدمة العقد";
+"takeBack" = "قم بتصوير الجزء الخلفي من العقد";
+"takeSelfi" = "قم بتصوير العميل";
+"uploadContractNow" = "تحميل العقد الآن";
+
+// end of journy
+"ActivationCompletedSuccessfully" = "اكتملت عملية التنشيط بنجاح.";
+
+// Lose internet connection
+"checkInternetConnection" = "يرجى التحقق من اتصالك بالإنترنت وحاول مرة أخرى";
+"btnRetry" = "أعد المحاولة";
