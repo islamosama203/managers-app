@@ -9,7 +9,7 @@ import Foundation
 
 struct Constants {
     
-    static var live = "https://manp.midtakseet.com:8443/"
+    static var live = "https://manp.midtakseet.com/"
     static var test = "https://mant.midtakseet.com/"
     
     static var mainUrl = live
