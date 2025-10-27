@@ -112,9 +112,12 @@
 		43E4668A294DC1A8004523FF /* Scaner.json in Resources */ = {isa = PBXBuildFile; fileRef = 43E46689294DC1A8004523FF /* Scaner.json */; };
 		43E46695294DC61A004523FF /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E46694294DC61A004523FF /* LottieView.swift */; };
 		43FE5ECF2A40501B00DDC202 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FE5ECE2A40501B00DDC202 /* DetailsView.swift */; };
+		5D22901E1CE71FA80F2DBEBE /* Pods_MidManagers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A12911CA52DE056D6E163B3 /* Pods_MidManagers.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0AABFF28E0D560E64F9D69D3 /* Pods-MidManagers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MidManagers.debug.xcconfig"; path = "Target Support Files/Pods-MidManagers/Pods-MidManagers.debug.xcconfig"; sourceTree = "<group>"; };
+		1A12911CA52DE056D6E163B3 /* Pods_MidManagers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MidManagers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2910B07F2A6BC39E007BE1E2 /* Routing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routing.swift; sourceTree = "<group>"; };
 		2910B0832A6BCA65007BE1E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2918F6432B937051006F6E4B /* UserDefaults+Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extentions.swift"; sourceTree = "<group>"; };
@@ -219,6 +222,7 @@
 		43E46689294DC1A8004523FF /* Scaner.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Scaner.json; sourceTree = "<group>"; };
 		43E46694294DC61A004523FF /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 		43FE5ECE2A40501B00DDC202 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		566B14BBBF6365183FE6AD97 /* Pods-MidManagers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MidManagers.release.xcconfig"; path = "Target Support Files/Pods-MidManagers/Pods-MidManagers.release.xcconfig"; sourceTree = "<group>"; };
 		5E91ACB3292E0CE300CF2B9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -231,12 +235,21 @@
 				43D06AFC2B25C82E00D4A334 /* Lottie in Frameworks */,
 				43BDC37A2951E5F500D40591 /* ActivityIndicatorView in Frameworks */,
 				29E096FA2B2C6A06006E1EA2 /* IQKeyboardManagerSwift in Frameworks */,
+				5D22901E1CE71FA80F2DBEBE /* Pods_MidManagers.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		253BF17B5AEEA9B803261A04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A12911CA52DE056D6E163B3 /* Pods_MidManagers.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2910B07E2A6BC34E007BE1E2 /* Routing */ = {
 			isa = PBXGroup;
 			children = (
@@ -492,6 +505,8 @@
 			children = (
 				43C48C1129107EC60032A8EA /* MidManagers */,
 				43C48C1029107EC60032A8EA /* Products */,
+				B7D94BB47E62E5AAADAA6972 /* Pods */,
+				253BF17B5AEEA9B803261A04 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -699,6 +714,15 @@
 			path = Animations;
 			sourceTree = "<group>";
 		};
+		B7D94BB47E62E5AAADAA6972 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0AABFF28E0D560E64F9D69D3 /* Pods-MidManagers.debug.xcconfig */,
+				566B14BBBF6365183FE6AD97 /* Pods-MidManagers.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -706,6 +730,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 43C48C1D29107EC70032A8EA /* Build configuration list for PBXNativeTarget "MidManagers" */;
 			buildPhases = (
+				CE2C321B440C4C85F2284044 /* [CP] Check Pods Manifest.lock */,
 				43C48C0B29107EC60032A8EA /* Sources */,
 				43C48C0C29107EC60032A8EA /* Frameworks */,
 				43C48C0D29107EC60032A8EA /* Resources */,
@@ -733,7 +758,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1400;
-				LastUpgradeCheck = 1520;
+				LastUpgradeCheck = 1640;
 				TargetAttributes = {
 					43C48C0E29107EC60032A8EA = {
 						CreatedOnToolsVersion = 14.0;
@@ -784,6 +809,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CE2C321B440C4C85F2284044 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MidManagers-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		43C48C0B29107EC60032A8EA /* Sources */ = {
@@ -934,6 +984,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = Y823233D3J;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
@@ -996,6 +1047,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = Y823233D3J;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
@@ -1019,15 +1071,15 @@
 		};
 		43C48C1E29107EC70032A8EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AABFF28E0D560E64F9D69D3 /* Pods-MidManagers.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = MidManagers/MidManagers.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 19;
+				CURRENT_PROJECT_VERSION = 20;
 				DEVELOPMENT_ASSET_PATHS = "\"MidManagers/Preview Content\"";
-				DEVELOPMENT_TEAM = Y823233D3J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MidManagers/Info.plist;
@@ -1059,15 +1111,15 @@
 		};
 		43C48C1F29107EC70032A8EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 566B14BBBF6365183FE6AD97 /* Pods-MidManagers.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = MidManagers/MidManagers.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 19;
+				CURRENT_PROJECT_VERSION = 20;
 				DEVELOPMENT_ASSET_PATHS = "\"MidManagers/Preview Content\"";
-				DEVELOPMENT_TEAM = Y823233D3J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MidManagers/Info.plist;

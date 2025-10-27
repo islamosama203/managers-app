@@ -12,6 +12,6 @@ struct Constants {
     static var live = "https://manp.midtakseet.com:8443/"
     static var test = "https://mant.midtakseet.com/"
     
-    static var mainUrl = test
+    static var mainUrl = live
     
 }
